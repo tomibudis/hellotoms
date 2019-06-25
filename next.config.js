@@ -38,27 +38,27 @@ const assetPrefix =
     : '/Next-gh-page-example/';
 
 const webpackConfigModifier = config => {
-  // const sassPatterns = [/\.scss$/, /\.sass$/].map(x => x.toString());
+  const sassPatterns = [/\.scss$/, /\.sass$/].map(x => x.toString());
 
-  // config.module.rules = config.module.rules.map(rule => {
-  //   if (sassPatterns.includes(rule.test.toString())) {
-  //     return {
-  //       ...rule,
-  //       use: [
-  //         ...rule.use,
-  //         {
-  //           loader: 'sass-resources-loader',
-  //           options: {
-  //             resources: [],
-  //             // resources: ['./scss/_variables.scss', './scss/mixins.scss'],
-  //           },
-  //         },
-  //       ],
-  //     };
-  //   }
+  config.module.rules = config.module.rules.map(rule => {
+    if (sassPatterns.includes(rule.test.toString())) {
+      return {
+        ...rule,
+        use: [
+          ...rule.use,
+          // {
+          //   loader: 'sass-resources-loader',
+          //   options: {
+          //     resources: [''],
+          //     // resources: ['./scss/_variables.scss', './scss/mixins.scss'],
+          //   },
+          // },
+        ],
+      };
+    }
 
-  //   return rule;
-  // });
+    return rule;
+  });
 
   // eslint-disable-next-line no-param-reassign
   // config.plugins = [
@@ -83,7 +83,7 @@ const webpackConfigModifier = config => {
           fallback: 'file-loader',
           publicPath: `${assetPrefix || ''}/_next/static/`,
           outputPath: 'static/',
-          // name: '[name]-[hash].[ext]',
+          name: '[name]-[hash].[ext]',
         },
       },
     },
@@ -111,7 +111,10 @@ const sass = [
   },
 ];
 
-const css = [withCSS, { cssModules: false }];
+const css = [withCSS, { cssModules: true }];
 const plugins = [moduleTranspilation, sass, css];
 
-module.exports = withPlugins(plugins, nextConfig);
+module.exports = withPlugins(
+  plugins, 
+  nextConfig,
+);
