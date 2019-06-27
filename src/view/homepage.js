@@ -1,14 +1,25 @@
-import styles from './styles.scss';
-import './styles.scss';
+import PhotoProfile from '#components/photoProfile';
+import WorkExperience from '#components/workExperience';
+import Profile from '#components/profile';
+import mockWork from '../../mock/work';
+import { basicInfo, aboutInfo } from '../../mock/about';
 
 const HomepageView = () => { 
   return (
-    <div>
-      <div className="container">
-        <div className={styles.title}>Title Page</div>
-        <div className="row">
-          <div className="col-4 title">Col 4</div>
-          <div className="col-4">Col 6</div>
+    <div className="container">
+      <div className="row">
+        <div className="col-4">
+          <div className="p-4">
+            <PhotoProfile />
+          </div>
+          <div className="px-4">
+            <WorkExperience data={mockWork} />
+          </div>
+        </div>
+        <div className="col-8">
+          <div className="py-4">
+            <Profile basicInfo={basicInfo} aboutInfo={aboutInfo} />
+          </div>
         </div>
       </div>
     </div>
