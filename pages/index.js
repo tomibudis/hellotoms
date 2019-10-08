@@ -1,6 +1,7 @@
 import HomepageView from '#view/homepage';
 import { Fragment } from 'react';
 import Head from 'next/head';
+import '../src/theme/global-styles.scss';
 
 const Homepage = () => {
   return (
@@ -13,38 +14,48 @@ const Homepage = () => {
         <title>Hellotoms!</title>
       </Head>
       <body>
-        <style jsx global>{`
-          @font-face{
-            font-family:"GraphikLight";
-            src:url("/static/fonts/graphik/Graphik-Light.eot");
-            src:url("/static/fonts/grahik/Graphik-Light.eot") format("eot"),url("/static/fonts/graphik/Graphik-Light.svg") format("svg"),
-            url("/static/fonts/graphik/Graphik-Light.ttf") format("ttf"),url("/static/fonts/graphik/Graphik-Light.woff") format("woff")
+        <style global jsx>{`
+          .text-masbul-medium {
+            font-family: Masbul-Medium;
           }
-          @font-face{
-            font-family:"GraphikRegular";
-            src:url("/static/fonts/graphik/Graphik-Regular.eot");
-            src:url("/static/fonts/graphik/Graphik-Regular.eot") format("eot"),url("/static/fonts/graphik/Graphik-Regular.svg") format("svg"),
-            url("/static/fonts/graphik/Graphik-Regular.ttf") format("ttf"),url("/static/fonts/graphik/Graphik-Regular.woff") format("woff")
+          .text-masbul-bold {
+            font-family: Masbul-Bold;
           }
-          @font-face{
-            font-family:"GraphikMedium";
-            src:url("/static/fonts/graphik/Graphik-Medium.eot");
-            src:url("/static/fonts/graphik/Graphik-Medium.eot") format("eot"),url("/static/fonts/graphik/Graphik-Medium.svg") format("svg"),
-            url("/static/fonts/graphik/Graphik-Medium.ttf") format("ttf"),url("/static/fonts/graphik/Graphik-Medium.woff") format("woff")
+          .nav .nav-link.active, .nav-pills .show>.nav-link {
+            color: #3E46AD;
+            border-bottom: solid #3E46AD
           }
-          body {
-            font-family: GraphikRegular;
-            font-size: 14px;
-          }
-          .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-            color: #3cb7ff;
-            background-color: #E7F6FF;
-          }
-          .nav-pills .nav-link:hover {
-            color: #3cb7ff;
+          .nav .nav-link:hover {
+            color: #3E46AD !important;
           }
           .nav-link{
             color: #606060;
+          }
+          .cursor-pointer {
+            cursor: pointer;
+          }
+          .text-primary {
+            color: #3E46AD !important;
+          };
+          .btn-primary-custom {
+            background: #3E46AD;
+            color: #fff;
+            border-color: none !important;
+            box-shadow: 0 14px 28px rgba(62,70,173,0.25), 0 10px 10px rgba(62,70,173,0.22);
+          }
+          .btn-primary-custom:hover {
+            background: #5B64D4;
+            color: #fff;
+            border-color: #5B64D4;
+          }
+          .btn-primary-custom:active {
+            background: #363E9F !important;
+            box-shadow: 0 8px 18px rgba(62,70,173,0.25), 0 5px 5px rgba(62,70,173,0.22);
+          }
+          .btn-primary-custom:focus {
+            background: #363E9F !iimportant;
+            box-shadow: 0 14px 28px rgba(62,70,173,0.25), 0 10px 10px rgba(62,70,173,0.22);
+
           }
         `}</style>
         <HomepageView />

@@ -1,6 +1,6 @@
 import styles from './styles.scss';
-import cn from 'classnames';
-import { arrayOf, shape, string } from 'prop-types';
+import cn from './node_modules/classnames';
+import { arrayOf, shape, string } from './node_modules/prop-types';
 
 const About = props => {
   const { basicInfo = [], aboutInfo = []} = props;
@@ -18,7 +18,7 @@ const About = props => {
         {basicInfo.length > 0 && basicInfo.map(row => (
           <div className="d-flex py-2">
             <div className={styles.labelInformation}>{row.label && row.label}</div>
-            <div className="flex-fill">{row.value && row.value}</div>
+            <div className={cn('flex-fill', styles.valueInformation)}>{row.value && row.value}</div>
           </div>
         ))}
       </div>

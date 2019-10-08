@@ -1,6 +1,6 @@
 export const aboutInfo = [
   { 
-    label: 'Phone',
+    label: 'Phone/WA',
     value: '+6285877266079'
   },
   {
@@ -25,5 +25,9 @@ export const basicInfo = [
   {
     label: 'Gender',
     value: 'Male'
+  },
+  {
+    label: 'Religion',
+    value: 'Islam'
   }
 ]

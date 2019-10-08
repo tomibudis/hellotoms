@@ -25,6 +25,7 @@ const withPlugins = require('next-compose-plugins');
 const withTM = require('next-transpile-modules');
 const withSASS = require('@zeit/next-sass');
 const withCSS = require('@zeit/next-css');
+global.jQuery = global.$ = require('jquery'); 
 
 // const map = {
 //   production: 'prod',
