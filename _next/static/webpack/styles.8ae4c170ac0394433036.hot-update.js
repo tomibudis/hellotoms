@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
+webpackHotUpdate("styles",{
 
 /***/ "./src/components/CardProfile/styles.scss":
 /*!************************************************!*\
@@ -152,5 +152,5 @@ module.exports = {"h1":"_3C1wsh6ohrRTJLoukt5pyx","h2":"_1SD8aO4RZ96ZSWHovfvG0e",
 
 /***/ })
 
-}]);
-//# sourceMappingURL=styles.js.map
+})
+//# sourceMappingURL=styles.8ae4c170ac0394433036.hot-update.js.map
