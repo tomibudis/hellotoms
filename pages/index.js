@@ -15,6 +15,40 @@ const Homepage = () => {
       </Head>
       <body>
         <style global jsx>{`
+          @font-face{
+            font-family:"Masbul-Black";
+            src: url("/static/fonts/masbul/Masbul-Black.ttf");
+          }
+          @font-face{
+            font-family:"Masbul-Bold";
+            src: url("/static/fonts/masbul/Masbul-Bold.ttf");
+          }
+          @font-face{
+            font-family:"Masbul-Book";
+            src: url("/static/fonts/masbul/Masbul-Book.ttf");
+          }
+          @font-face{
+            font-family:"Masbul-Light";
+            src: url("/static/fonts/masbul/Masbul-Light.ttf");
+          }
+          @font-face{
+            font-family:"Masbul-Medium";
+            src: url("/static/fonts/masbul/Masbul-Medium.ttf");
+          }
+          @font-face{
+            font-family:"Sentinel-Light";
+            src: url("/static/fonts/sentinel/Sentinel-Light.otf");
+          }
+          @font-face{
+            font-family:"Sentinel-Book";
+            src: url("/static/fonts/sentinel/Sentinel-Book.otf");
+          }
+          
+          body {
+            font-family: 'Sentinel-Light';
+            font-size: 18px;
+            background: #F7F7F5 !important;
+          }        
           .text-masbul-medium {
             font-family: Masbul-Medium;
           }
@@ -55,7 +89,6 @@ const Homepage = () => {
           .btn-primary-custom:focus {
             background: #363E9F !iimportant;
             box-shadow: 0 14px 28px rgba(62,70,173,0.25), 0 10px 10px rgba(62,70,173,0.22);
-
           }
         `}</style>
         <HomepageView />

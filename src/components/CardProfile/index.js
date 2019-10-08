@@ -8,7 +8,7 @@ const CardProfile = () => {
       <div className="pt-5 d-flex justify-content-center position-relative">
         <div>
           <div className={styles.profilePicture} style={{
-            backgroundImage: 'url("/static/img/profpic.jpg")',
+            backgroundImage: 'url("https://tomibudis.github.io/hellotoms/static/img/profpic.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: '50% 20%',
           }}>
