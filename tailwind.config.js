@@ -5,7 +5,17 @@ module.exports = {
     "./src/views/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'darkBlue': '#081839',
+        'lightGreen': '#09CCA9',
+        'white': '#fff',
+      },
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
   },
   plugins: [],
 }
