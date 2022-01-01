@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
+
+import { MENU } from '@constants/index';
 
 const About: React.FunctionComponent = (): JSX.Element => {
   return (
-    <div>About Page</div>
-  )
-}
+    <div className="px-5" id={MENU.ABOUT}>
+      About View
+    </div>
+  );
+};
 
 export default About;

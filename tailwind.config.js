@@ -5,6 +5,15 @@ module.exports = {
     "./src/views/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        default: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+      },
+    },
     extend: {
       colors: {
         'darkBlue': '#081839',
@@ -13,8 +22,9 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
+      sans: ['Gaphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      mono: ['Fira Code', 'monospace'],
     },
   },
   plugins: [],

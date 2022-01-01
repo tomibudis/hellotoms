@@ -1,16 +1,28 @@
 import React from "react";
 
+import { Button } from "@components/index";
+
 const Homepage: React.FC = (): JSX.Element => {
   return (
-      <div className="flex flex-col justify-center items-center min-h-screen">
-        <div className="w-6/12">
-          <p className="text-lightGreen pb-3">Hi 👋 , my name is</p>
-          <h1 className="font-bold text-5xl">
-            Tomi Budi<br /> {`I'm a Software Engineer`}
-          </h1>
-          <p className="mt-4 w-8/12">Javascript enthusiast and love build something with reactjs. Currently I work as Front-end engineer focus to building pixel perfect of user interface with hightly code quality, definitely enhance with unit test as well</p>
+    <div className="px-5 md:px-5 flex flex-col justify-center items-center min-h-screen sm:w-12/12 md:w-10/12 lg:w-7/12 mx-auto">
+      <div className="">
+        <p className="text-lightGreen pb-3 font-mono">Hi 👋 , my name is</p>
+        <h1 className="font-bold font-sans text-2xl md:text-5xl tracking-wide text-gray-100">
+          Tomi Budi
+          <br /> {`I'm a Software Engineer`}
+        </h1>
+        <div className="sm:w-8/12 md:w-8/12">
+          <p className="mt-4 text-gray-300">
+            Javascript enthusiast and love build something with reactjs. Currently
+            I work as Front-end engineer focus to building pixel perfect of user
+            interface with hightly code quality, definitely enhance with unit test
+            as well
+          </p>
         </div>
+        
+        <Button className="mt-5 px-6 font-mono">My Resume</Button>
       </div>
+    </div>
   );
 };
 
