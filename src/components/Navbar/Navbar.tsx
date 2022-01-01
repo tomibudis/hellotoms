@@ -5,12 +5,16 @@ import { AlignRight, X } from "react-feather";
 import { Drawer } from "@components/index";
 import { LIST_MENU } from "@constants/index";
 
-const Menus: React.FC = () => {
+interface MenusProps {
+  onClose: () => void;
+}
+
+const Menus: React.FC<MenusProps> = ({ onClose }) => {
   return (
-    <div className="flex flex-col sm:flex-row gap-10 font-mono text-xs items-center justify-center h-full">
+    <div className="flex flex-col sm:flex-row font-mono text-xs items-center justify-center h-full">
       {LIST_MENU.map((menu, index) => {
         return (
-          <a key={menu} href={`#${menu}`} className="capitalize">
+          <a key={menu} href={`#${menu}`} className="capitalize ml-0 sm:ml-10 mb-10" onClick={onClose}>
             <span className="text-lightGreen pr-2">#{index + 1}.</span>
             {menu}
           </a>
@@ -32,7 +36,7 @@ const Navbar: React.FC = () => {
               onClick={() => setOpenDrawer(false)}
             />
           </div>
-          <Menus />
+          <Menus onClose={() => setOpenDrawer(false)} />
         </React.Fragment>
       </Drawer>
       <div className="z-20 px-5 md:px-12 py-5 md:py-8 fixed flex justify-between items-center w-full  bg-darkBlue">
@@ -52,7 +56,7 @@ const Navbar: React.FC = () => {
           />
         </div>
         <div className="hidden sm:block">
-          <Menus />
+          <Menus onClose={() => setOpenDrawer(false)} />
         </div>
       </div>
     </React.Fragment>

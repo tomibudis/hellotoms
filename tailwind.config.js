@@ -21,11 +21,6 @@ module.exports = {
         'white': '#fff',
       },
     },
-    // fontFamily: {
-    //   sans: ['Gaphik', 'sans-serif'],
-    //   serif: ['Merriweather', 'serif'],
-    //   mono: ['Fira Code', 'monospace'],
-    // },
   },
   plugins: [],
 }
