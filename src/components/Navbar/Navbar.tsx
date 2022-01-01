@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
           <Menus />
         </React.Fragment>
       </Drawer>
-      <div className="px-5 md:px-12 py-5 md:py-8 fixed flex justify-between items-center w-full  bg-darkBlue">
+      <div className="z-20 px-5 md:px-12 py-5 md:py-8 fixed flex justify-between items-center w-full  bg-darkBlue">
         <div>
           <Image
             src="/images/logo.png"
