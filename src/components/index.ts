@@ -5,3 +5,4 @@ export { default as Container } from './Container';
 export { default as Tabs } from './Tabs';
 export { default as OccupationTitle } from './OccupationTitle';
 export { default as List } from './List';
+export { default as Tag } from './Tag';
