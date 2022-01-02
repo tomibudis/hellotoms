@@ -14,7 +14,7 @@ const Menus: React.FC<MenusProps> = ({ onClose }) => {
     <div className="flex flex-col sm:flex-row font-mono text-xs items-center justify-center h-full">
       {LIST_MENU.map((menu, index) => {
         return (
-          <a key={menu} href={`#${menu}`} className="capitalize ml-0 sm:ml-10 mb-10" onClick={onClose}>
+          <a key={menu} href={`#${menu}`} className="capitalize ml-0 sm:ml-10 mb-10 sm:mb-0" onClick={onClose}>
             <span className="text-lightGreen pr-2">#{index + 1}.</span>
             {menu}
           </a>

@@ -25,3 +25,31 @@ export const SKILLS = [
   LANGUAGES.NODEJS,
   LANGUAGES.STYLED_COMPONENT,
 ]
+
+export const COMPANY = {
+  KW: 'Keller Williams',
+  GREDU: 'Gredu Asia',
+  ASSETDATA: 'AssetData',
+  ISITUP: "Isitup DotCom",
+  NOLIMIT: 'NoLimit',
+  BACKUP_AND_PRINT: 'Backup and Print',
+  REKENINGKU: 'Rekeningku DotCom',
+  AVOSKIN: 'Avoskinbeauty',
+  FREELANCER: 'Freelancer',
+  PT_UNITED_TECHNOLOGY: 'PT UnitedTechnology',
+  TINEP_INDONESIA: 'Tinep Indonesia',
+}
+
+export const EXPERIENCE = [
+  COMPANY.KW,
+  COMPANY.GREDU,
+  COMPANY.ASSETDATA,
+  COMPANY.ISITUP,
+  COMPANY.NOLIMIT,
+  COMPANY.BACKUP_AND_PRINT,
+  COMPANY.REKENINGKU,
+  COMPANY.AVOSKIN,
+  COMPANY.FREELANCER,
+  COMPANY.PT_UNITED_TECHNOLOGY,
+  COMPANY.TINEP_INDONESIA,
+]
