@@ -19,9 +19,9 @@ const DetailProject: React.FC<DetailProjectProps> = (props): JSX.Element => {
       <div className="mt-2 p-4 rounded-lg bg-white/10">
         <p className="text-white/70">{props.description}</p>
       </div>
-      <div className="flex gap-2 mt-2">
+      <div className="flex mt-2">
         {props.tags.map((tag, index) => {
-          return <Tag name={tag} key={index} />;
+          return <Tag name={tag} key={index} className="mr-2" />;
         })}
       </div>
     </div>
@@ -36,7 +36,7 @@ const Work: React.FC = (): JSX.Element => {
         <h3>{`Some Things I've Built`} ⚡</h3>
       </div>
       <div className="col-span-12 grid grid-cols-12 gap-y-0 md:gap-y-20">
-        <div className="col-span-12 md:col-span-6 flex items-center justify-center p-5">
+        <div className="col-span-12 md:col-span-6 flex items-center justify-center py-5 pr-5">
           <Image
             src="/images/commandmc-applet.png"
             alt="command-mc-applet"
@@ -65,7 +65,7 @@ const Work: React.FC = (): JSX.Element => {
             tags={["React", "Next", "Redux", "Metronic Theme"]}
           />
         </div>
-        <div className="col-span-12 md:col-span-6 p-5 flex justify-end">
+        <div className="col-span-12 md:col-span-6 py-5 pl-5 flex justify-end">
           <Image
             src="/images/assetdata.png"
             alt="assetdata"

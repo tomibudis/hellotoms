@@ -1,4 +1,5 @@
 export const MENU = {
+  HOMEPAGE: 'homepage',
   ABOUT: 'about',
   EXPERIENCE: 'experience',
   WORK: 'work',
