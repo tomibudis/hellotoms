@@ -3,7 +3,7 @@ import Image from "next/image";
 import { AlignRight, X } from "react-feather";
 
 import { Drawer } from "@components/index";
-import { LIST_MENU } from "@constants/index";
+import { LIST_MENU, MENU } from "@constants/index";
 
 interface MenusProps {
   onClose: () => void;
@@ -41,13 +41,15 @@ const Navbar: React.FC = () => {
       </Drawer>
       <div className="z-20 px-5 md:px-12 py-5 md:py-8 fixed flex justify-between items-center w-full  bg-darkBlue">
         <div>
-          <Image
-            src="/images/logo.png"
-            alt="hellotoms-logo"
-            width={140}
-            height={25}
-            quality={100}
-          />
+          <a href={`#${MENU.HOMEPAGE}`}>
+            <Image
+              src="/images/logo.png"
+              alt="hellotoms-logo"
+              width={140}
+              height={25}
+              quality={100}
+            />
+          </a>
         </div>
         <div className="block sm:hidden">
           <AlignRight
