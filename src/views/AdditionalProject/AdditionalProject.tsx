@@ -10,7 +10,7 @@ const AdditionalProject: React.FC = (): JSX.Element => {
         <h3>Other Noteworthy Projects</h3>
       </div>
       <div className='col-span-12 grid grid-cols-12 gap-4'>
-        <div className='col-span-12 md:col-span-4'>
+        <div data-aos="fade-up" data-aos-offset="100" className='col-span-12 md:col-span-4'>
           <Card
             title='Galaxy-Labs'
             description='UI Component created by react to simplify and easily development'
@@ -19,7 +19,7 @@ const AdditionalProject: React.FC = (): JSX.Element => {
             link="https://tomibudis.github.io/galaxy-labs/?path=/story/introduction-get-started--page"
           />
         </div>
-        <div className='col-span-12 md:col-span-4'>
+        <div data-aos="fade-up" data-aos-offset="200" className='col-span-12 md:col-span-4'>
           <Card
             title='Boilerplate nextjs'
             description='Built boilerplate to aims starter nextjs app to building web platform at gredu-asia'
@@ -27,7 +27,7 @@ const AdditionalProject: React.FC = (): JSX.Element => {
             link="https://www.npmjs.com/package/@gredu-asia/template-next-app"
           />
         </div>
-        <div className='col-span-12 md:col-span-4'>
+        <div data-aos="fade-up" data-aos-offset="300" className='col-span-12 md:col-span-4'>
           <Card
             title='Moflix'
             description='Mobile application built with flutter to shows list of trend movie, favorite movie and furthermore.'

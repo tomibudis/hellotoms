@@ -32,8 +32,8 @@ const DetailProject: React.FC<DetailProjectProps> = (props): JSX.Element => {
 const Work: React.FC = (): JSX.Element => {
   const isMobile = useMediaQuery(768);
   return (
-    <Container id={MENU.WORK} className="py-10 sm:py-24 pt-24">
-      <div className="whitespace-nowrap col-span-12 flex font-bold font-sans text-2xl mb-4 text-gray-200 items-center">
+    <Container id={MENU.WORK} className="py-10 sm:py-24 pt-24 md:mb-24">
+      <div data-aos="fade-up" className="whitespace-nowrap col-span-12 flex font-bold font-sans text-2xl mb-4 text-gray-200 items-center">
         <span className="text-lightGreen pr-2 font-mono text-lg">#3.</span>
         {isMobile ? (
           <h3>{`My Work's`} ⚡</h3>
@@ -42,7 +42,7 @@ const Work: React.FC = (): JSX.Element => {
         )}
       </div>
       <div className="col-span-12 grid grid-cols-12 gap-y-0 md:gap-y-20">
-        <div className="col-span-12 md:col-span-6 flex items-center justify-center py-5 pr-5">
+        <div data-aos="fade-up" data-aos-offset="400" className="col-span-12 md:col-span-6 flex items-center justify-center py-5 pr-5">
           <Image
             src="/images/commandmc-applet.png"
             alt="command-mc-applet"
@@ -51,7 +51,7 @@ const Work: React.FC = (): JSX.Element => {
             quality={100}
           />
         </div>
-        <div className="col-span-12 md:col-span-6 mb-10 sm:mb-0 flex items-center">
+        <div data-aos="fade-up" className="col-span-12 md:col-span-6 mb-10 sm:mb-0 flex items-center">
           <DetailProject
             title="Feature Project"
             nameApp="CommandMC Applet"
@@ -62,7 +62,7 @@ const Work: React.FC = (): JSX.Element => {
             tags={["React", "Next", "Express", "Micro-Frontend"]}
           />
         </div>
-        <div className="col-span-12 md:col-span-6 order-last md:order-none mb-10 sm:mb-0">
+        <div data-aos="fade-up" className="col-span-12 md:col-span-6 order-last md:order-none mb-10 sm:mb-0">
           <DetailProject
             title="Feature Project"
             nameApp="Asset Management"
@@ -71,7 +71,7 @@ const Work: React.FC = (): JSX.Element => {
             tags={["React", "Next", "Redux", "Metronic Theme"]}
           />
         </div>
-        <div className="col-span-12 md:col-span-6 py-5 pl-5 flex justify-end">
+        <div data-aos="fade-up" data-aos-offset="400" className="col-span-12 md:col-span-6 py-5 pl-5 flex justify-end">
           <Image
             src="/images/assetdata.png"
             alt="assetdata"

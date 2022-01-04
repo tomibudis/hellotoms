@@ -11,12 +11,12 @@ const Experience: React.FC = (): JSX.Element => {
   }, []);
 
   return (
-    <Container id={MENU.EXPERIENCE} className="pt-24">
-      <div className="col-span-12 flex font-sans font-semibold text-2xl mb-4 text-gray-200 items-center justify-center">
+    <Container id={MENU.EXPERIENCE} className="pt-24 md:mb-24">
+      <div data-aos="fade-up" className="col-span-12 flex font-sans font-semibold text-2xl mb-4 text-gray-200 items-center justify-center">
         <span className="text-lightGreen pr-2 font-mono text-lg">#2.</span>
         <h3>{`Where I've worked ⚡`}</h3>
       </div>
-      <div className="col-span-12 mt-4">
+      <div data-aos="fade-up" className="col-span-12 mt-4">
         <div className="mx-auto">
           <div className="w-12/12 grid grid-cols-12 font-mono">
             <Tabs

@@ -12,16 +12,16 @@ const About: React.FunctionComponent = (): JSX.Element => {
   const isMobile = useMediaQuery(768);
   return (
     <Container id={MENU.ABOUT} className="mb-80 md:mb-20 pt-24">
-      <div className="col-span-12 flex font-bold font-sans text-2xl mb-4 text-gray-200 items-center">
+      <div data-aos="fade-up" className="col-span-12 flex font-bold font-sans text-2xl mb-4 text-gray-200 items-center">
       <span className="text-lightGreen pr-2 font-mono text-lg">#1.</span>
         <h3>About Me ⚡</h3>
       </div>
-      <div className="col-span-12 md:col-span-8 mb-20">
+      <div data-aos="fade-up" className="col-span-12 md:col-span-8 mb-20">
         <p className="font-sans text-white/70 md:pr-10">
           Hello! My name is Tomi who loves to explore new things and the
-          begining of my motivation for being interested in this section is
-          to make it fun when creating component used HTML & CSS. and it makes
-          me addicted! :). Actually sometimes I also work for back-end stuff, but for now my preferred work I choose the front-end side
+          begin of my motivation for being interested in this section is
+          to make it fun when create a component used HTML & CSS. and it makes
+          me addicted! :). Actually sometimes I also work on back-end stuff, but for now my preferred work to choose the front-end side.
         </p>
         <p className="font-sans text-white/70 md:pr-10 mt-3">
           Fast-forward to today. I work for a big company and currently
@@ -32,7 +32,7 @@ const About: React.FunctionComponent = (): JSX.Element => {
         <p className="font-sans text-white/70 md:pr-10 mt-3">
           I also recently create galaxy-labs that is react component library for
           front-end needs to get faster during development. the product doesn’t
-          finish yet but I actively to provide new beutifull component over
+          finish yet but I actively to provide new beautiful component over
           time.
         </p>
         <p className="font-sans text-white/70 md:pr-10 mt-3">
@@ -52,7 +52,7 @@ const About: React.FunctionComponent = (): JSX.Element => {
           })}
         </div>
       </div>
-      <div className="col-span-12 md:col-span-4 flex md:items-center justify-center relative">
+      <div data-aos="fade-up" className="col-span-12 md:col-span-4 flex md:items-center justify-center relative">
         <div className="absolute md:right-0 z-10 md:mr-10 md:hover:mr-5 md:hover:-mt-5 ease-in-out transition-all duration-300">
           <Image
             src="/images/profile-picture.png"
