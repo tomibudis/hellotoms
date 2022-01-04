@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import { Container, Tag } from "@components/index";
 import { MENU } from "@constants/index";
+import useMediaQuery from "@hooks/useMediaQuery";
 
 interface DetailProjectProps {
   title: string;
@@ -19,7 +20,7 @@ const DetailProject: React.FC<DetailProjectProps> = (props): JSX.Element => {
       <div className="mt-2 p-4 rounded-lg bg-white/10">
         <p className="text-white/70">{props.description}</p>
       </div>
-      <div className="flex mt-2">
+      <div className="flex flex-wrap gap-y-2 mt-2">
         {props.tags.map((tag, index) => {
           return <Tag name={tag} key={index} className="mr-2" />;
         })}
@@ -29,11 +30,16 @@ const DetailProject: React.FC<DetailProjectProps> = (props): JSX.Element => {
 };
 
 const Work: React.FC = (): JSX.Element => {
+  const isMobile = useMediaQuery(768);
   return (
     <Container id={MENU.WORK} className="py-10 sm:py-24">
       <div className="whitespace-nowrap col-span-12 flex font-bold font-sans text-2xl mb-4 text-gray-200 items-center">
         <span className="text-lightGreen pr-2 font-mono text-lg">#3.</span>
-        <h3>{`Some Things I've Built`} ⚡</h3>
+        {isMobile ? (
+          <h3>{`My Work's`} ⚡</h3>
+        ) : (
+          <h3>{`Some Things I've Built`} ⚡</h3>
+        )}
       </div>
       <div className="col-span-12 grid grid-cols-12 gap-y-0 md:gap-y-20">
         <div className="col-span-12 md:col-span-6 flex items-center justify-center py-5 pr-5">

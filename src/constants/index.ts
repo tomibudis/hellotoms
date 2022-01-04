@@ -54,3 +54,9 @@ export const EXPERIENCE = [
   COMPANY.PT_UNITED_TECHNOLOGY,
   COMPANY.TINEP_INDONESIA,
 ]
+
+export const SOCIAL_MEDIA = {
+  GITHUB: 'https://github.com/tomibudis',
+  LINKEDIN: 'https://www.linkedin.com/in/tomi-budi-20aa3a92/',
+  INSTAGRAM: 'https://www.instagram.com/tomi_budi'
+}

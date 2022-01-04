@@ -15,13 +15,13 @@ const Card: React.FC<CardProps> = (props): JSX.Element => {
     <div className={cx("bg-white/10", "rounded-lg p-4 h-full")}>
       <div className="flex justify-between w-full mb-3">
         <Folder className="text-lightGreen" size={40} />
-        <div className=" flex flex-1 gap-2 justify-end">
+        <div className="flex flex-1 justify-end">
           {props.github && (
             <a
               href={props.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white text-white/70"
+              className="hover:text-white text-white/70 ml-2"
             >
               <GitHub />
             </a>
@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = (props): JSX.Element => {
               href={props.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white text-white/70"
+              className="hover:text-white text-white/70 ml-2"
             >
               <ExternalLink />
             </a>

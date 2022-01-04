@@ -2,6 +2,7 @@ import React from "react";
 
 import { Button, Container } from "@components/index";
 import { MENU } from "@constants/index";
+import { Download } from 'react-feather';
 
 const Homepage: React.FC = (): JSX.Element => {
   return (
@@ -20,7 +21,12 @@ const Homepage: React.FC = (): JSX.Element => {
             as well
           </p>
         </div>
-        <Button className="mt-5 px-6 font-mono">My Resume</Button>
+        <Button className="mt-5 px-6 font-mono flex items-center animate-bounce w-200 h-50 ">
+          My Resume 
+          <div className="ml-2">
+            <Download size={20} />
+          </div>
+        </Button>
       </div>
     </Container>
   );
