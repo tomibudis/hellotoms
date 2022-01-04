@@ -5,6 +5,10 @@ import { MENU, SOCIAL_MEDIA } from "@constants/index";
 import { Instagram, GitHub, Linkedin } from "react-feather";
 
 const Contact: React.FC = (): JSX.Element => {
+  const onOpenMail = () => {
+    window.open(`mailto:${SOCIAL_MEDIA.EMAIL}`);
+  };
+
   return (
     <Container>
       <div className="col-span-12 grid grid-cols-12 h-[600px] items-center text-center">
@@ -17,7 +21,7 @@ const Contact: React.FC = (): JSX.Element => {
             inbox is always open. Whether you have a question or just want to
             say hi, I’ll try my best to get back to you!
           </p>
-          <Button className="mt-8">Say Hello</Button>
+          <Button className="mt-8" onClick={onOpenMail}>Say Hello</Button>
         </div>
       </div>
       <div id={MENU.CONTACT} className="col-span-12 h-[50px] flex flex-col justify-center items-center">
@@ -41,7 +45,6 @@ const Contact: React.FC = (): JSX.Element => {
             >
               Github
             </a>
-            {/* https://github.com/tomibudis */}
           </div>
           <div className="flex mx-2 items-center">
             <Linkedin size={14} className="mx-1"/>

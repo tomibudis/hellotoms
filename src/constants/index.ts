@@ -58,5 +58,6 @@ export const EXPERIENCE = [
 export const SOCIAL_MEDIA = {
   GITHUB: 'https://github.com/tomibudis',
   LINKEDIN: 'https://www.linkedin.com/in/tomi-budi-20aa3a92/',
-  INSTAGRAM: 'https://www.instagram.com/tomi_budi'
+  INSTAGRAM: 'https://www.instagram.com/tomi_budi',
+  EMAIL: 'tomibudis@gmail.com'
 }
