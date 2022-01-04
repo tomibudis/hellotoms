@@ -11,31 +11,31 @@ const About: React.FunctionComponent = (): JSX.Element => {
   const { isSafari } = useBrowserAgent();
   const isMobile = useMediaQuery(768);
   return (
-    <Container id={MENU.ABOUT} className="mb-80 md:mb-20">
+    <Container id={MENU.ABOUT} className="mb-80 md:mb-20 pt-24">
       <div className="col-span-12 flex font-bold font-sans text-2xl mb-4 text-gray-200 items-center">
       <span className="text-lightGreen pr-2 font-mono text-lg">#1.</span>
         <h3>About Me ⚡</h3>
       </div>
       <div className="col-span-12 md:col-span-8 mb-20">
-        <p className="font-sans text-white/70 pr-10">
+        <p className="font-sans text-white/70 md:pr-10">
           Hello! My name is Tomi who loves to explore new things and the
           begining of my motivation for being interested in this section is
           to make it fun when creating component used HTML & CSS. and it makes
           me addicted! :). Actually sometimes I also work for back-end stuff, but for now my preferred work I choose the front-end side
         </p>
-        <p className="font-sans text-white/70 pr-10 mt-3">
+        <p className="font-sans text-white/70 md:pr-10 mt-3">
           Fast-forward to today. I work for a big company and currently
           my main focus are developing new features and maintaining the platform under micro front-end architecture.
           beside that I also often to create a cool stuff and you
           can see on my resume.
         </p>
-        <p className="font-sans text-white/70 pr-10 mt-3">
+        <p className="font-sans text-white/70 md:pr-10 mt-3">
           I also recently create galaxy-labs that is react component library for
           front-end needs to get faster during development. the product doesn’t
           finish yet but I actively to provide new beutifull component over
           time.
         </p>
-        <p className="font-sans text-white/70 pr-10 mt-3">
+        <p className="font-sans text-white/70 md:pr-10 mt-3">
           Here are a few technologies that I’ve been used recently:
         </p>
         <div className="font-sans text-white/70 grid grid-rows-3 grid-flow-col gap-1 mt-3">

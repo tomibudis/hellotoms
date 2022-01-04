@@ -32,7 +32,7 @@ const DetailProject: React.FC<DetailProjectProps> = (props): JSX.Element => {
 const Work: React.FC = (): JSX.Element => {
   const isMobile = useMediaQuery(768);
   return (
-    <Container id={MENU.WORK} className="py-10 sm:py-24">
+    <Container id={MENU.WORK} className="py-10 sm:py-24 pt-24">
       <div className="whitespace-nowrap col-span-12 flex font-bold font-sans text-2xl mb-4 text-gray-200 items-center">
         <span className="text-lightGreen pr-2 font-mono text-lg">#3.</span>
         {isMobile ? (

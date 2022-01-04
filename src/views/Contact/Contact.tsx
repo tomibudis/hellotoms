@@ -25,7 +25,7 @@ const Contact: React.FC = (): JSX.Element => {
         </div>
       </div>
       <div id={MENU.CONTACT} className="col-span-12 h-[50px] flex flex-col justify-center items-center">
-        <div className="flex font-mono text-sm">
+        <div className="flex font-mono text-xs">
           <div className="flex mx-2 items-center">
             <Instagram size={14} className="mx-1" />
             <a
