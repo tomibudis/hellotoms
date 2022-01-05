@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
+this is source code of landing page hellotoms.com. the web page build with modern technologies such nextjs typescript and tailwindcss. why? maybe I just want to create project for fun and learning the new stack. I know this is overkill built simple page with last technology that most popular it takes more times and effort to create a simple page. but it is just for learning purposes. currently I've experience with tailwindcss and makes me amazed in the first time to using it. it likes simple and the result super awesome!
 
-## Getting Started
+for now it just made for my personal landing page. but I've an idea to make it modular and it can be used for other with variate theme. I'll be create the next time..
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Notes
+just give me a star on this repo to support me create something cool in the next time. and feel free to use this repo for your personal landing page. thank you!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Stack information
+bellow are lists of stack that used for built this landing page
+- Nextjs v12.0.7
+- React v17.0.2
+- Typescript v4.5.4
+- Aos v2.3.4 animation purpose
+- Feather v2.09 Icons stock
+- Tailwindcss v3.0.8
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Maintainer
+MIT @tomibudis

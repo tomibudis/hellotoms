@@ -35,19 +35,18 @@ const Experience: React.FC = (): JSX.Element => {
                   />
                   <div className="mt-4">
                     <List>
-                      Create awesome features and maintaining commandmc applet
+                      Create awesome features and maintaining CommandMC applet
                       such as recruiting pipeline, recruit associates, report
-                      goals, find recruit, commandmc smart-plans etc..
+                      goals, find recruit, CommandMC smart-plans etc..
                     </List>
                     <List>
-                      Development under Micro Front-end architecture, also work
-                      on with modern technologies and tools, write code with
-                      perfomance quality, and sustainable code with unit test.
+                      Development under micro front-end architecture, also work
+                      on with modern technologies, tools and cool co-workers, write code with
+                      a good performance quality, and sustainable code with unit test.
                     </List>
                     <List>
-                      Communicate and collaborate with cross teams, engineers,
-                      designeer, product. to handle new project or refinement
-                      product.
+                      Communicate and collaborate with cross teams, either engineers and
+                      designer to handle new project or refinement product.
                     </List>
                     <List>
                       Healthy culture during lifecycle development, daily
@@ -56,7 +55,7 @@ const Experience: React.FC = (): JSX.Element => {
                       day and etc..
                     </List>
                     <List>
-                      Work with a variety of different languages, frameworks
+                      Work with variety of different languages, frameworks
                       such as Javascript, Typescript, React, Nodejs, Express,
                       Nextjs, Graphql, Jest, Testing-library. and also take care
                       of implementation responsive design
@@ -74,28 +73,28 @@ const Experience: React.FC = (): JSX.Element => {
                   />
                   <div className="mt-4">
                     <List>
-                      Create beautifull design system built with react based to
-                      make it consistency component cross platform at Greduasia.
+                      Create a beautiful design system that build with react based to
+                      make it consistency component across platform at Greduasia.
                       Made with modern stack typescript, rollup (bundle),
                       testing-library, storybook, and bunch of config to get
                       consistency code such as commit, automation publish,
                       linter etc..
                     </List>
                     <List>
-                      Work on a veriety applet at gredu such as Teacher,
+                      Work on a variety applet at gredu such as Teacher,
                       Student, School Management System, Landing Page, OMS,
-                      maintaining system, bugfix and, create a new stuff.
+                      maintaining system and bug fix.
                     </List>
                     <List>
                       Worked closely with engineer manager and product manager
-                      to manage develop new feature or refinement product. and
+                      to develop new feature or refinement product. and
                       make it to a small piece stuff to being worked on by
                       front-end engineer.
                     </List>
                     <List>
                       Develop pattern code regarding web application for new
                       project (boilerplate) built with nextjs, config, and there
-                      are snippet code for starter
+                      are snippet code for starter.
                     </List>
                   </div>
                 </div>
@@ -110,20 +109,20 @@ const Experience: React.FC = (): JSX.Element => {
                   />
                   <div className="mt-4">
                     <List>
-                      Architected and Implemented the front-end for asset
-                      management platform web based. built using nextjs, redux
-                      and material theme
+                      Architected and implemented the front-end side for asset
+                      management platform web based. built used nextjs, redux
+                      and metronic theme.
                     </List>
                     <List>
-                      Delegate task and review code from other front-end dev
+                      Delegate task and review code from other front-end dev.
                     </List>
                     <List>
-                      Maintanance and bug fixing the platform related complex
-                      workflow system asset management
+                      Maintenance and bug fix the platform related complex
+                      workflow system asset management.
                     </List>
                     <List>
                       Shipped and develop new feature to particular client such
-                      as Petronas and Sepura
+                      as Petronas and Sepura.
                     </List>
                   </div>
                 </div>
@@ -139,16 +138,16 @@ const Experience: React.FC = (): JSX.Element => {
                   <div className="mt-4">
                     <List>
                       Refactoring old platform from vuejs to react and redesign
-                      entire platform
+                      entire platform.
                     </List>
                     <List>
-                      Maintained and developed new feature for basic software as
-                      services particular for asset management
+                      Maintained and developed a feature for basic software as
+                      services particular for asset management.
                     </List>
                     <List>
-                      Manage task and code review on Front-end team and work
+                      Manage task and code review on front-end team and work
                       closely with system analyst to determine what feature will
-                      shipped and develop
+                      shipped and develop.
                     </List>
                   </div>
                 </div>
@@ -165,8 +164,8 @@ const Experience: React.FC = (): JSX.Element => {
                     <List>
                       Built and shipped the platform to monitoring sales used
                       React, Graphql for client Enesis Group enesis.com.
-                      Collaboration report status with project manager at
-                      NoLimit
+                      Collaboration for daily report with project manager at
+                      NoLimit.
                     </List>
                   </div>
                 </div>
@@ -233,8 +232,8 @@ const Experience: React.FC = (): JSX.Element => {
                   />
                   <div className="mt-4">
                     <List>
-                      As a freelancer on the several companies such as PT Rejeki
-                      Abadi Teknik, CV CMP and also work in freelance.com as web
+                      As a freelancer in the several companies such as PT Rejeki
+                      Abadi Teknik, CV CMP and also work through freelance.com as web
                       developer
                     </List>
                   </div>

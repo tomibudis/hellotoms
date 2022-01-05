@@ -55,7 +55,7 @@ const Work: React.FC = (): JSX.Element => {
           <DetailProject
             title="Feature Project"
             nameApp="CommandMC Applet"
-            description="A web app developed under micro front-end architecture. the
+            description="A web app develop under micro front-end architecture. the
             platform handling several features that are recruiting pipeline,
             find recruit, report goals, recruit associates, recruit management
             and many more."
@@ -67,7 +67,7 @@ const Work: React.FC = (): JSX.Element => {
             title="Feature Project"
             nameApp="Asset Management"
             // eslint-disable-next-line max-len
-            description="A web app maintaining asset management. create a new asset, reporting management, locations. inventory, user management, warrantly, interactive dashboard analytics and etc.."
+            description="A web app maintaining asset management. create a new asset, reporting management, locations. inventory, user management, warranty, interactive dashboard analytics and etc.."
             tags={["React", "Next", "Redux", "Metronic Theme"]}
           />
         </div>

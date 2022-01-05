@@ -20,7 +20,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Hellotoms 🤟</title>
+        <title>Hellotoms.com</title>
         <meta name="description" content="Landing page hellotoms created by nextjs typescript" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

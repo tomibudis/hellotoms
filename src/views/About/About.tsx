@@ -24,7 +24,7 @@ const About: React.FunctionComponent = (): JSX.Element => {
           me addicted! :). Actually sometimes I also work on back-end stuff, but for now my preferred work to choose the front-end side.
         </p>
         <p className="font-sans text-white/70 md:pr-10 mt-3">
-          Fast-forward to today. I work for a big company and currently
+          Fast-forward to today. I work for a large company and currently
           my main focus are developing new features and maintaining the platform under micro front-end architecture.
           beside that I also often to create a cool stuff and you
           can see on my resume.
@@ -55,11 +55,12 @@ const About: React.FunctionComponent = (): JSX.Element => {
       <div data-aos="fade-up" className="col-span-12 md:col-span-4 flex md:items-center justify-center relative">
         <div className="absolute md:right-0 z-10 md:mr-10 md:hover:mr-5 md:hover:-mt-5 ease-in-out transition-all duration-300">
           <Image
-            src="/images/profile-picture.png"
-            alt="profile-picture"
+            src="/images/profile.JPG"
+            alt="profile"
             width={259}
-            height={259}
+            height={280}
             quality={100}
+            className="rounded-lg"
           />
         </div>
         {!(isSafari && isMobile) && (
