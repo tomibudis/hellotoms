@@ -29,6 +29,7 @@ export const SKILLS = [
 
 export const COMPANY = {
   KW: 'Keller Williams',
+  VIRTUALSPIRIT: 'Virtual Spirit',
   GREDU: 'Gredu Asia',
   ASSETDATA: 'AssetData',
   ISITUP: "Isitup DotCom",
@@ -43,6 +44,7 @@ export const COMPANY = {
 
 export const EXPERIENCE = [
   COMPANY.KW,
+  COMPANY.VIRTUALSPIRIT,
   COMPANY.GREDU,
   COMPANY.ASSETDATA,
   COMPANY.ISITUP,

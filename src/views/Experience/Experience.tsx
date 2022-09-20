@@ -63,13 +63,34 @@ const Experience: React.FC = (): JSX.Element => {
                   </div>
                 </div>
               )}
+              {curretTab === COMPANY.VIRTUALSPIRIT && (
+                <div>
+                  <OccupationTitle
+                    title="Sr Front-end Web Engineer"
+                    company="@virtualspirit"
+                    start="April 2022"
+                    end="Present"
+                  />
+                  <div className="mt-4">
+                    <List>
+                      Create and maintain Real estate system build with new tech stack (Nextjs, typescript, tailwindcss and etc..)
+                    </List>
+                    <List>
+                      Made of chat application that used for internal member (Nextjs, typescript)
+                    </List>
+                    <List>
+                      Develop pattern code to simplify, efficient and performance app.
+                    </List>
+                  </div>
+                </div>
+              )}
               {curretTab === COMPANY.GREDU && (
                 <div>
                   <OccupationTitle
                     title="Lead Front-end Engineer"
                     company="@gredu.asia"
                     start="June 2021"
-                    end="Present"
+                    end="April 2022"
                   />
                   <div className="mt-4">
                     <List>
@@ -130,7 +151,7 @@ const Experience: React.FC = (): JSX.Element => {
               {curretTab === COMPANY.ISITUP && (
                 <div>
                   <OccupationTitle
-                    title="Senior Front-end Engineer"
+                    title="Sr Front-end Engineer"
                     company="@asset.io"
                     start="Jan 2021"
                     end="May 2021"
