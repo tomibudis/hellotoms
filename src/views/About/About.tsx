@@ -12,31 +12,36 @@ const About: React.FunctionComponent = (): JSX.Element => {
   const isMobile = useMediaQuery(768);
   return (
     <Container id={MENU.ABOUT} className="mb-80 md:mb-20 pt-24">
-      <div data-aos="fade-up" className="col-span-12 flex font-bold font-sans text-2xl mb-4 text-gray-200 items-center">
-      <span className="text-lightGreen pr-2 font-mono text-lg">#1.</span>
+      <div
+        data-aos="fade-up"
+        className="col-span-12 flex font-bold font-sans text-2xl mb-4 text-gray-200 items-center"
+      >
+        <span className="text-lightGreen pr-2 font-mono text-lg">#1.</span>
         <h3>About Me ⚡</h3>
       </div>
       <div data-aos="fade-up" className="col-span-12 md:col-span-8 mb-20">
         <p className="font-sans text-white/70 md:pr-10">
-          Hello! My name is Tomi who loves to explore new things and the
-          begin of my motivation for being interested in this section is
-          to make it fun when create a component used HTML & CSS. and it makes
-          me addicted! :). Actually sometimes I also work on back-end stuff, but for now my preferred work to choose the front-end side.
+          Hello! My name is Tomi and I am someone who thrives on exploring new
+          things. My motivation for delving into the world of web development
+          began with a desire to make creating components with HTML and CSS an
+          enjoyable experience. As it turns out, I became quite addicted to it!
+          In addition to front-end work, I also have experience working on
+          back-end projects.
         </p>
         <p className="font-sans text-white/70 md:pr-10 mt-3">
-          Fast-forward to today. I work for a large company and currently
-          my main focus are developing new features and maintaining the platform under micro front-end architecture.
-          beside that I also often to create a cool stuff and you
-          can see on my resume.
+          Currently, I am employed at a large company where my main focus is
+          developing new features and maintaining the platform using micro
+          front-end architecture. In my free time, I enjoy working on personal
+          projects and you can check them out on my resume.
         </p>
         <p className="font-sans text-white/70 md:pr-10 mt-3">
-          I also recently create galaxy-labs that is react component library for
-          front-end needs to get faster during development. the product doesn’t
-          finish yet but I actively to provide new beautiful component over
-          time.
+          Recently, I have been working on creating galaxy-labs, which is a
+          React component library aimed at helping front-end developers work
+          more efficiently. The project is still ongoing, and I am actively
+          working on adding more beautiful and useful components.
         </p>
         <p className="font-sans text-white/70 md:pr-10 mt-3">
-          Here are a few technologies that I’ve been used recently:
+          Some of the technologies that I am currently proficient in include:
         </p>
         <div className="font-sans text-white/70 grid grid-rows-3 grid-flow-col gap-1 mt-3">
           {SKILLS.map((skill, index) => {
@@ -52,7 +57,10 @@ const About: React.FunctionComponent = (): JSX.Element => {
           })}
         </div>
       </div>
-      <div data-aos="fade-up" className="col-span-12 md:col-span-4 flex md:items-center justify-center relative">
+      <div
+        data-aos="fade-up"
+        className="col-span-12 md:col-span-4 flex md:items-center justify-center relative"
+      >
         <div className="absolute md:right-0 z-10 md:mr-10 md:hover:mr-5 md:hover:-mt-5 ease-in-out transition-all duration-300">
           <Image
             src="/images/profile.JPG"
