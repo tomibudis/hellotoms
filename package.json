@@ -14,12 +14,15 @@
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-feather": "^2.0.9"
+    "react-feather": "^2.0.9",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
     "@types/node": "17.0.5",
     "@types/react": "17.0.38",
+    "@types/react-slick": "^0.23.13",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "autoprefixer": "^10.4.1",
     "eslint": "8.5.0",

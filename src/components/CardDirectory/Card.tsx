@@ -39,7 +39,7 @@ const Card: React.FC<CardProps> = (props): JSX.Element => {
         </div>
       </div>
       <p className="font-sans font-bold">{props.title}</p>
-      <p className="font-sans text-white/70 mt-2">{props.description}</p>
+      <p className="font-sans text-white/80 mt-2">{props.description}</p>
       <p className="font-mono text-xs mt-4">[{props.tags?.join()}]</p>
     </div>
   );

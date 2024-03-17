@@ -3,12 +3,13 @@ import React from "react";
 import cx from "classnames";
 
 interface ContainerProps {
-  children: React.ReactNode;
   id?: string;
   className?: string;
 }
 
-const Container: React.FC<ContainerProps> = (props): JSX.Element => {
+const Container: React.FC<React.PropsWithChildren<ContainerProps>> = (
+  props
+): JSX.Element => {
   return (
     <div className={cx("px-5 md:mx-0", props.className)} id={props.id}>
       <div className="sm:w-12/12 md:w-10/12  lg:w-[1200px] mx-auto grid grid-cols-12">
