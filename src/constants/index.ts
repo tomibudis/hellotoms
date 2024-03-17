@@ -29,12 +29,15 @@ export const SKILLS = [
   LANGUAGES.STYLED_COMPONENT,
   LANGUAGES.GRAPHQL,
   LANGUAGES.REDUX,
+  "Etc..",
 ];
 
 export const COMPANY = {
   KW: "Keller Williams",
   VIRTUALSPIRIT: "Virtual Spirit",
+  BRIGHTY: "Brighty",
   GREDU: "Gredu Asia",
+  BTPN: "BTPN",
   ASSETDATA: "AssetData",
   ISITUP: "Isitup DotCom",
   NOLIMIT: "NoLimit",
@@ -49,7 +52,9 @@ export const COMPANY = {
 export const EXPERIENCE = [
   COMPANY.KW,
   COMPANY.VIRTUALSPIRIT,
+  COMPANY.BRIGHTY,
   COMPANY.GREDU,
+  COMPANY.BTPN,
   COMPANY.ASSETDATA,
   COMPANY.ISITUP,
   COMPANY.NOLIMIT,
@@ -63,7 +68,7 @@ export const EXPERIENCE = [
 
 export const SOCIAL_MEDIA = {
   GITHUB: "https://github.com/tomibudis",
-  LINKEDIN: "https://www.linkedin.com/in/tomi-budi-20aa3a92/",
+  LINKEDIN: "https://www.linkedin.com/in/tomi-budi/",
   INSTAGRAM: "https://www.instagram.com/tomi_budi",
   EMAIL: "tomibudis@gmail.com",
 };

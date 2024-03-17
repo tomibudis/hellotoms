@@ -12,7 +12,7 @@ const List: React.FC<ListProps> = (props): JSX.Element => {
   return (
     <p
       className={cx(
-        "flex items-start font-sans text-white/70",
+        "flex items-start font-mono text-white/70 mb-2 text-sm",
         props.className
       )}
     >

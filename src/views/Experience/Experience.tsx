@@ -12,7 +12,10 @@ const Experience: React.FC = (): JSX.Element => {
 
   return (
     <Container id={MENU.EXPERIENCE} className="pt-24 md:mb-24">
-      <div data-aos="fade-up" className="col-span-12 flex font-sans font-semibold text-2xl mb-4 text-gray-200 items-center justify-center">
+      <div
+        data-aos="fade-up"
+        className="col-span-12 flex font-sans font-semibold text-2xl mb-4 text-gray-200 items-center justify-center"
+      >
         <span className="text-lightGreen pr-2 font-mono text-lg">#2.</span>
         <h3>{`Where I've worked ⚡`}</h3>
       </div>
@@ -31,34 +34,45 @@ const Experience: React.FC = (): JSX.Element => {
                     title="Frontend Engineer"
                     company="@kw.com"
                     start="Apr 2019"
-                    end="Present"
+                    end="Mar 2024"
                   />
                   <div className="mt-4">
                     <List>
-                      Create awesome features and maintaining CommandMC applet
+                      Create awesome features and maintaining commandmc applet
                       such as recruiting pipeline, recruit associates, report
-                      goals, find recruit, CommandMC smart-plans etc..
+                      goals, find recruit, commandmc smart-plans etc..
                     </List>
                     <List>
                       Development under micro front-end architecture, also work
-                      on with modern technologies, tools and cool co-workers, write code with
-                      a good performance quality, and sustainable code with unit test.
+                      on with modern technologies and tools, write code with a
+                      good performance quality, and sustainable code with unit
+                      test.
                     </List>
                     <List>
-                      Communicate and collaborate with cross teams, either engineers and
-                      designer to handle new project or refinement product.
+                      Communicate and collaborate with cross teams either
+                      engineers and designer to handle new project or refinement
+                      product.
                     </List>
                     <List>
-                      Healthy culture during lifecycle development, daily
-                      standup, grooming, refinement, sprint planing,
-                      retrospective per bi-weekly, code review, desk check, demo
-                      day and etc..
+                      Proficient in fostering a robust development culture
+                      throughout the software lifecycle, encompassing daily
+                      standup, grooming sessions, sprint planning, bi-weekly
+                      retrospectives, thorough code reviews, desk checks, and
+                      successful demonstration on demo days.
                     </List>
                     <List>
-                      Work with variety of different languages, frameworks
+                      Proficient in identifying and resolving bugs as well as
+                      implementing new features within software applications.
+                      Skilled in conducting thorough analysis to diagnose
+                      issues, devising effective solutions, and seamlessly
+                      integrating new functionalities to enhance product
+                      performance and user experience.
+                    </List>
+                    <List>
+                      Work with a variety of different languages, frameworks
                       such as Javascript, Typescript, React, Nodejs, Express,
                       Nextjs, Graphql, Jest, Testing-library. and also take care
-                      of implementation responsive design
+                      of implementation responsive design.
                     </List>
                   </div>
                 </div>
@@ -73,13 +87,51 @@ const Experience: React.FC = (): JSX.Element => {
                   />
                   <div className="mt-4">
                     <List>
-                      Create and maintain Real estate system build with new tech stack (Nextjs, typescript, tailwindcss and etc..)
+                      Developed a Chat Application (VirtualSpace): Designed and
+                      implemented real-time messaging features, ensuring
+                      seamless integration within the VirtualSpace platform.
                     </List>
                     <List>
-                      Made of chat application that used for internal member (Nextjs, typescript)
+                      Created a UI Kit for VirtualSpace: Crafted intuitive user
+                      interfaces and optimized UI components for performance and
+                      consistency across the platform.
                     </List>
                     <List>
-                      Develop pattern code to simplify, efficient and performance app.
+                      Developed Drag-and-Drop Form Module: Designed an intuitive
+                      form builder with customizable features, enhancing
+                      platform usability.
+                    </List>
+                    <List>
+                      Maintained VTR (Real-Estate Platform): Troubleshot issues,
+                      implemented performance enhancements, and introduced new
+                      features to meet user needs and market demands.
+                    </List>
+                    <List>
+                      Code Reviewer: Conducted thorough code reviews, ensuring
+                      quality and fostering team collaboration.
+                    </List>
+                  </div>
+                </div>
+              )}
+              {curretTab === COMPANY.BRIGHTY && (
+                <div>
+                  <OccupationTitle
+                    title="Front-end Engineer"
+                    company="@brighty"
+                    start="Dec 2022"
+                    end="Jan 2024"
+                  />
+                  <div className="mt-4">
+                    <List>
+                      Developed a new product order module using Vue.js for
+                      internal system management at Brighty.
+                    </List>
+                    <List>
+                      Contributed to code reviews for quality assurance.
+                    </List>
+                    <List>
+                      Optimized development mode in Vue.js, enhancing speed and
+                      resolving bugs for smoother workflow.
                     </List>
                   </div>
                 </div>
@@ -94,28 +146,62 @@ const Experience: React.FC = (): JSX.Element => {
                   />
                   <div className="mt-4">
                     <List>
-                      Create a beautiful design system that build with react based to
-                      make it consistency component across platform at Greduasia.
-                      Made with modern stack typescript, rollup (bundle),
-                      testing-library, storybook, and bunch of config to get
-                      consistency code such as commit, automation publish,
-                      linter etc..
+                      Create a beautifull design system build with react based
+                      to make it consistency component cross platform at
+                      Greduasia. Made with modern stack typescript, rollup
+                      (bundle), testing-library, storybook, and bunch of config
+                      to get consistency code such as commit, automation
+                      publish, linter etc..
                     </List>
                     <List>
                       Work on a variety applet at gredu such as Teacher,
                       Student, School Management System, Landing Page, OMS,
-                      maintaining system and bug fix.
+                      maintaining system, bug fix and, create a new stuff.
                     </List>
                     <List>
                       Worked closely with engineer manager and product manager
-                      to develop new feature or refinement product. and
-                      make it to a small piece stuff to being worked on by
-                      front-end engineer.
+                      to develop new feature or refinement product. and make it
+                      to a small piece stuff to being worked on by front-end
+                      engineer.
+                    </List>
+                    <List>
+                      Worked closely with engineer manager and product manager
+                      to develop new feature or refinement product. and make it
+                      to a small piece stuff to being worked on by front-end
+                      engineer.
                     </List>
                     <List>
                       Develop pattern code regarding web application for new
                       project (boilerplate) built with nextjs, config, and there
-                      are snippet code for starter.
+                      are snippet code for starter
+                    </List>
+                  </div>
+                </div>
+              )}
+              {curretTab === COMPANY.BTPN && (
+                <div>
+                  <OccupationTitle
+                    title="Front-end Engineer"
+                    company="@btpn"
+                    start="Sept 2022"
+                    end="Dec 2022"
+                  />
+                  <div className="mt-4">
+                    <List>
+                      Developed a customer relationship management module for
+                      internal use at BTPN.
+                    </List>
+                    <List>
+                      Designed and implemented reusable components to streamline
+                      development processes.
+                    </List>
+                    <List>
+                      Implemented unit testing to ensure code quality and
+                      reliability.
+                    </List>
+                    <List>
+                      Contributed to code reviews, ensuring adherence to coding
+                      standards and best practices.
                     </List>
                   </div>
                 </div>
@@ -130,20 +216,26 @@ const Experience: React.FC = (): JSX.Element => {
                   />
                   <div className="mt-4">
                     <List>
-                      Architected and implemented the front-end side for asset
-                      management platform web based. built used nextjs, redux
-                      and metronic theme.
+                      Spearheaded the architectural design and implementation of
+                      the front-end infrastructure for a web-based asset
+                      management platform.
                     </List>
                     <List>
-                      Delegate task and review code from other front-end dev.
+                      Leveraged Next.js, Redux, and the Metronic theme to
+                      develop a robust and scalable solution.
                     </List>
                     <List>
-                      Maintenance and bug fix the platform related complex
-                      workflow system asset management.
+                      Oversaw task delegation and conducted comprehensive code
+                      reviews for fellow front-end developers.
                     </List>
                     <List>
-                      Shipped and develop new feature to particular client such
-                      as Petronas and Sepura.
+                      Led maintenance efforts and resolved complex workflow
+                      system and asset management-related issues.
+                    </List>
+                    <List>
+                      Delivered tailored new features to specific clients such
+                      as Petronas and Sepura, ensuring their unique needs were
+                      met.
                     </List>
                   </div>
                 </div>
@@ -158,17 +250,26 @@ const Experience: React.FC = (): JSX.Element => {
                   />
                   <div className="mt-4">
                     <List>
-                      Refactoring old platform from vuejs to react and redesign
-                      entire platform.
+                      Refactored an outdated platform from Vue.js to React,
+                      initiating a complete redesign of the entire system.
                     </List>
                     <List>
-                      Maintained and developed a feature for basic software as
-                      services particular for asset management.
+                      Maintained and developed new features for essential
+                      Software-as-a-Service solutions, specifically designed for
+                      asset management.
                     </List>
                     <List>
-                      Manage task and code review on front-end team and work
-                      closely with system analyst to determine what feature will
-                      shipped and develop.
+                      Managed task assignments and conducted rigorous code
+                      reviews within the front-end team.
+                    </List>
+                    <List>
+                      Collaborated closely with system analysts to prioritize
+                      features for development and ensure alignment with project
+                      objectives.
+                    </List>
+                    <List>
+                      Contributed to code reviews, ensuring adherence to coding
+                      standards and best practices.
                     </List>
                   </div>
                 </div>
@@ -188,6 +289,10 @@ const Experience: React.FC = (): JSX.Element => {
                       Collaboration for daily report with project manager at
                       NoLimit.
                     </List>
+                    <List>
+                      Conducted bug fixes and enhancements for ongoing platform
+                      maintenance.
+                    </List>
                   </div>
                 </div>
               )}
@@ -203,7 +308,16 @@ const Experience: React.FC = (): JSX.Element => {
                     <List>
                       Developed admin page to manage all of office operations.
                       the features inside are interactive dashboard, landing
-                      page, backup and print system and etc.
+                      Engineered an administrative page to streamline office
+                      operations.
+                    </List>
+                    <List>
+                      Designed and implemented a captivating landing page.
+                    </List>
+                    <List>
+                      Integrated backup and print systems with a bare server for
+                      enhanced functionality and reliability., backup and print
+                      system and etc.
                     </List>
                   </div>
                 </div>
@@ -219,7 +333,11 @@ const Experience: React.FC = (): JSX.Element => {
                   <div className="mt-4">
                     <List>
                       Developed and revamp rekeningku platform with reactjs.
-                      Handling tons of data real-time with socket communication
+                      Handling tons of data real-time with socket communication.
+                    </List>
+                    <List>
+                      Resolved bugs and improved platform stability for seamless
+                      user experience.
                     </List>
                   </div>
                 </div>
@@ -235,11 +353,11 @@ const Experience: React.FC = (): JSX.Element => {
                   <div className="mt-4">
                     <List>
                       Developed and revamp sales platform web used codeigniter
-                      (www.avoskinbeauty.com)
+                      (www.avoskinbeauty.com).
                     </List>
                     <List>
                       Maintained internal platform for sales activity built with
-                      codeigniter
+                      codeigniter.
                     </List>
                   </div>
                 </div>
@@ -254,8 +372,8 @@ const Experience: React.FC = (): JSX.Element => {
                   <div className="mt-4">
                     <List>
                       As a freelancer in the several companies such as PT Rejeki
-                      Abadi Teknik, CV CMP and also work through freelance.com as web
-                      developer
+                      Abadi Teknik, CV CMP and also work through freelance.com
+                      as web developer
                     </List>
                   </div>
                 </div>

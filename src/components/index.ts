@@ -10,3 +10,4 @@ export { default as CardDirectory } from "./CardDirectory";
 export { default as BlurBackgroundOrnament } from "./BlurBackgroundOrnament";
 export { default as PolkaDotOrnament } from "./PolkaDotOrnament";
 export { default as Card } from "./Card";
+export { default as Text } from "./Text";
